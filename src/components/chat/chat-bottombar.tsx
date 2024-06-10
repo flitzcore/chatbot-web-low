@@ -52,7 +52,7 @@ export default function ChatBottombar({
     };
     setIsWaiting(true);
 
-    fetch("https://b068-103-94-190-27.ngrok-free.app/predict", {
+    fetch("https://02c0-103-94-190-25.ngrok-free.app/predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
